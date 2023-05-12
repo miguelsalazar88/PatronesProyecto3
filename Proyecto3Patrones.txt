@@ -1,0 +1,70 @@
+Proyecto
+
+Sistema de un aeropuerto como FlightRadar con todos los elementos de gestión del aeropuerto
+Gestión de los avioncitos en las diferentes aerolineas
+Ver si el avión está a tiempo o no
+Ver si el avión está próximo a aterrizar
+Aviones de carga y pasajeros
+
+1. Al sistema pueden acceder Aerolineas, Pilotos, Crew y Pasajeros
+2. Los pasajeros pueden comprar tiquetes y gestionar sus vuelos.
+3. Los pilotos y crew pueden ver su horario
+4. Las aerolineas pueden crear rutas, crear aviones y gestionar a las tripulaciones
+5. Todos pueden ver el mapa y estado del vuelo.
+6. Debe haber un algoritmo que simule la ubicación y estado del vuelo (Memento)
+7. Debe haber un patrón FlyWeight para las imagenes en el mapa.
+8. Los usuarios se pueden crear con un factory.
+9. Los aviones se pueden crear con un
+
+
+Avion:
+- ID
+- Marca
+- Tipo(Pasajeros/Carga)
+- Cupos
+- Capacidad de Carga
+- x
+- y
+
+
+Aerolinea:
+- Vuelos<Vuelo>
+- Aviones<Avión>
+- Empleados<Persona>
+- Clientes<Pasajero>
+
+
+Vuelo:
+
+- Avion
+- Piloto
+- Copiloto
+- Crew
+- Pasajeros<Pasajero>
+- Origen
+- Destino
+
+Persona:
+
+- Nombre
+- Apellido
+- ID
+- Vuelos<Vuelo>
+- Horario
+
+Piloto/Copiloto/Crew
+- Aerolinea
+- Salario
+
+
+Pasajero:
+- Vuelos<Vuelo>
+
+
+
+
+JAVA SWING
+
+Flyweight / Singleton para el dibujito del avión
+
+

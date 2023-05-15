@@ -15,6 +15,12 @@ Aviones de carga y pasajeros
 7. Debe haber un patrón FlyWeight para las imagenes en el mapa.
 8. Los usuarios se pueden crear con un Factory.
 9. Los aviones se pueden crear con un Factory o un Builder.
+10. Para implementar la plataforma, se puede utilizar n patrón Singleton.
+
+
+Plataforma:
+- Usuarios<Usuario>
+- Aerolineas<Aerolinea>
 
 
 Avion:

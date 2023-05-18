@@ -41,7 +41,9 @@ Aerolinea:
 
 
 Vuelo:
-
+- Imagen
+- x
+- y
 - Avion
 - Piloto
 - Copiloto
